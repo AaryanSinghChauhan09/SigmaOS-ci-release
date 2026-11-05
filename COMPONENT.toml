@@ -1,0 +1,16 @@
+[component]
+name = "SigmaOS-ci-release"
+tier = 2
+stability = "scaffold"
+language = "rust"
+description = "Continuous integration release toolchain, reproducible ISO generator, and QEMU boot test runner"
+upstream = ["https://github.com/systemd/systemd/tree/main/test"]
+
+[contract]
+provides = ["reproducible-iso-builder", "qemu-boot-test-runner", "release-manifest-generator"]
+depends_on = []
+
+[maturity]
+status = "Scaffold"
+test_evidence = "Compiles and passes AAA unit tests"
+next_milestone = "Hardware and runtime integration"

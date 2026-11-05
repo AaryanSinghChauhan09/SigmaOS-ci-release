@@ -1,0 +1,9 @@
+[package]
+name = "sigmaos_ci_release"
+version = "0.1.0"
+edition = "2021"
+description = "Continuous integration release toolchain, reproducible ISO generator, and QEMU boot test runner"
+
+[lib]
+name = "sigmaos_ci_release"
+path = "src/lib.rs"
