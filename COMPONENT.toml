@@ -3,7 +3,7 @@ name = "SigmaOS-ci-release"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "Continuous integration release toolchain, reproducible ISO generator, and QEMU boot test runner"
+description = "CI/CD release pipeline: reproducible builds, artifact publishing, mirror sync"
 upstream = ["https://github.com/systemd/systemd/tree/main/test"]
 
 [contract]
